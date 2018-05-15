@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Karyu&#39;s Development Blog</title>
-    <link>https://karyu83.github.io/</link>
-    <description>Recent content on Karyu&#39;s Development Blog</description>
+    <title>Diary on Karyu&#39;s Development Blog</title>
+    <link>https://karyu83.github.io/categories/diary/</link>
+    <description>Recent content in Diary on Karyu&#39;s Development Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Tue, 15 May 2018 17:56:44 +0900</lastBuildDate>
     
-	<atom:link href="https://karyu83.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karyu83.github.io/categories/diary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
