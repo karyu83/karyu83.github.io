@@ -6,13 +6,22 @@
     <description>Recent content on Karyu&#39;s Development Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 16 May 2018 12:22:22 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 May 2018 12:23:23 +0900</lastBuildDate>
     
 	<atom:link href="https://karyu83.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Azure 기능 분석 1편</title>
+      <title>Azure 기능 분석 2편 - AI &#43; Machine Learning</title>
+      <link>https://karyu83.github.io/posts/azure-2/</link>
+      <pubDate>Thu, 17 May 2018 12:23:23 +0900</pubDate>
+      
+      <guid>https://karyu83.github.io/posts/azure-2/</guid>
+      <description>MS Azure 기능 분석 2. Azure에서 지원하는 서비스 AI + Machine Learning Azure Databricks 빠르고 쉬운 공동 작업 Apache Spark 기반 분석 플랫폼 Apache Spark란? In memory 기반의 고속 데이터 처리엔진 기존 H</description>
+    </item>
+    
+    <item>
+      <title>Azure 기능 분석 1편 - Computing, DB</title>
       <link>https://karyu83.github.io/posts/azure-1/</link>
       <pubDate>Wed, 16 May 2018 12:22:22 +0900</pubDate>
       
