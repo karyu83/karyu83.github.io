@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://karyu83.github.io/posts/azure-1/</loc>
+    <lastmod>2018-05-16T12:22:22+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://karyu83.github.io/posts/180515/</loc>
     <lastmod>2018-05-15T17:56:44+09:00</lastmod>
   </url>
@@ -12,7 +17,25 @@
   </url>
   
   <url>
+    <loc>https://karyu83.github.io/tags/azure/</loc>
+    <lastmod>2018-05-16T12:22:22+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://karyu83.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karyu83.github.io/tags/cloud/</loc>
+    <lastmod>2018-05-16T12:22:22+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://karyu83.github.io/categories/cloud/</loc>
+    <lastmod>2018-05-16T12:22:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,19 +53,19 @@
   
   <url>
     <loc>https://karyu83.github.io/</loc>
-    <lastmod>2018-05-15T17:56:44+09:00</lastmod>
+    <lastmod>2018-05-16T12:22:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://karyu83.github.io/posts/</loc>
-    <lastmod>2018-05-15T17:56:44+09:00</lastmod>
+    <lastmod>2018-05-16T12:22:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://karyu83.github.io/tags/</loc>
-    <lastmod>2018-05-15T17:56:44+09:00</lastmod>
+    <lastmod>2018-05-16T12:22:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   

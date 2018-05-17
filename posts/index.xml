@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Karyu&#39;s Development Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 15 May 2018 17:56:44 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 May 2018 12:22:22 +0900</lastBuildDate>
     
 	<atom:link href="https://karyu83.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure 기능 분석 1편</title>
+      <link>https://karyu83.github.io/posts/azure-1/</link>
+      <pubDate>Wed, 16 May 2018 12:22:22 +0900</pubDate>
+      
+      <guid>https://karyu83.github.io/posts/azure-1/</guid>
+      <description>MS Azure 소개 및 기능 분석 1. Azure 란 Azure 는 MS에서 서비스 하는 Cloud Service로 Amazon의 AWS와 치열하게 경쟁중이다. MS에서 주장하는 AWS보다 나은 점은</description>
+    </item>
     
     <item>
       <title>180515</title>
