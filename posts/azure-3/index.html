@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/2389074665/9lbrt7x37hg4j26zmlbj_400x400.jpeg" />
+      
+  
+  
+  <meta name="twitter:title" content="Azure 기능 분석 3편 - IoT, Storage, 분석 "/>
+  <meta name="twitter:description" content="MS Azure 기능 분석 2. Azure에서 지원하는 서비스 Azure IoT(Internet of Things) IoT Hub 수십억 개의 IoT 자산 연결, 모니터링 및 관리 IoT Hub는 오픈 소스 SDK와 여러 프로토콜을 지원하는 유"/>
+  
+    <meta name="twitter:site" content="@karyumu83"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@Karyu"/>
+  
+
+
+
+		
+		<meta name="author" content="Karyu">
+		<meta name="description" content="Karyu&#39;s development blog">
+		<meta name="generator" content="Hugo 0.40.3" />
+		<title>Azure 기능 분석 3편 - IoT, Storage, 분석  &middot; Karyu&#39;s Development Blog</title>
+		<link rel="shortcut icon" href="https://karyu83.github.io/images/favicon.ico">
+		<link rel="stylesheet" href="https://karyu83.github.io/css/style.css">
+		<link rel="stylesheet" href="https://karyu83.github.io/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://karyu83.github.io/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://karyu83.github.io/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://karyu83.github.io/posts'>Archive</a>
+	<a href='https://karyu83.github.io/tags'>Tags</a>
+	<a href='https://karyu83.github.io/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Azure 기능 분석 3편 - IoT, Storage, 분석 
+                    </h1>
+                    <h2 class="headline">
+                    May 18, 2018 17:22
+                    · 1848 words
+                    · 4 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://karyu83.github.io/tags/cloud">cloud</a>
+                          
+                              <a href="https://karyu83.github.io/tags/azure">azure</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                    <div id="toc">
+                      <nav id="TableOfContents">
+<ul>
+<li><a href="#ms-azure-기능-분석">MS Azure 기능 분석</a>
+<ul>
+<li><a href="#2-azure에서-지원하는-서비스">2. Azure에서 지원하는 서비스</a></li>
+</ul></li>
+</ul>
+</nav>
+                    </div>
+                  
+                
+                <section id="post-body">
+                    
+
+<h1 id="ms-azure-기능-분석">MS Azure 기능 분석</h1>
+
+<h2 id="2-azure에서-지원하는-서비스">2. Azure에서 지원하는 서비스</h2>
+
+<ul>
+<li><h3> Azure IoT(Internet of Things)</h3>
+
+<ol>
+<li><strong>IoT Hub</strong>
+
+<ul>
+<li>수십억 개의 IoT 자산 연결, 모니터링 및 관리</li>
+<li>IoT Hub는 오픈 소스 SDK와 여러 프로토콜을 지원하는 유연한 개방형 CaaS(Cloud Platform as a Service)</li>
+</ul></li>
+<li><strong>IoT Central</strong>
+
+<ul>
+<li>클라우드 전문 지식이 필요 없는, SaaS의 단순한 IoT(사물 인터넷) 지원 경험</li>
+<li>대규모 IoT 자산의 연결, 모니터링 및 관리를 도와주는, 완전히 관리되는 글로벌 IoT SaaS(Software-as-a-Service) 솔루션</li>
+</ul></li>
+<li><strong>Azure Sphere</strong>
+
+<ul>
+<li>인터넷에 연결된 매우 안전한 마이크로 컨트롤러(MCU) 장치를 만들기 위한 새로운 솔루션</li>
+<li>고객이 선호하는 지능형 제품 및 환경을 만들어 대규모로 IoT(사물 인터넷)를 구현할 수 있는 가격으로 빠르게 출시할 수 있게 해주는 보안 및 연결 기반을 제공</li>
+</ul></li>
+<li><strong>Azure Maps</strong>
+
+<ul>
+<li>향상된 생산성을 위해 데이터에 위치 컨텍스트 제공</li>
+<li>동적 정보로 앱과 장치를 새로 고치기</li>
+<li>지리적 좌표 이상을 추적</li>
+</ul></li>
+<li><strong>Event Grid</strong>
+
+<ul>
+<li>대규모로 안정적인 이벤트 전송 이용</li>
+<li>완전히 관리되는 이벤트 라우팅 서비스</li>
+</ul></li>
+<li><strong>Azure IoT Edge</strong>
+
+<ul>
+<li>클라우드 인텔리전스 및 분석을 에지 장치로 확장</li>
+<li>AI(인공 지능), Azure 서비스 및 사용자 지정 논리를 플랫폼 간 IoT 장치에 직접 배포하고 실행하여 로컬에 클라우드 인텔리전스를 제공하는 완전히 관리되는 서비스</li>
+</ul></li>
+<li><strong>Azure IoT 솔루션 가속기</strong>
+
+<ul>
+<li>템플릿을 사용하여 일반적인 IoT(사물 인터넷) 시나리오에 대한 완전히 사용자 지정 가능한 솔루션 작성</li>
+</ul></li>
+<li><strong>Time Series Insights</strong>
+
+<ul>
+<li>IoT 장치에서 시계열 데이터 탐색 및 분석</li>
+</ul></li>
+<li><strong>Azure Stream Analytics</strong>
+
+<ul>
+<li>지능형 작업을 지원하는 주문형 실시간 분석 서비스</li>
+<li>간단한 SQL 형식 언어를 사용하여 여러 IoT 또는 비-IoT 데이터 스트림에 대해 병렬 실시간 분석</li>
+<li>모든 IoT 장치 및 게이트웨이의 데이터를 즉시 분석</li>
+<li>수초 내에 시작, 즉시 확장, 각 작업에 사용한 만큼만 비용 지불</li>
+</ul></li>
+</ol></li>
+
+<li><h3>Storage</h3>
+
+<ol>
+<li><strong>디스크 Storage</strong>
+
+<ul>
+<li>가상 머신을 위한 확장 가능하고 안전한 저장소 확보</li>
+<li>대기 시간은 짧고 처리량은 많아야 하는, I/O를 많이 사용하는 응용 프로그램에는 프리미엄 디스크 저장소(SSD)를 선택</li>
+<li>테스트 작업에는 표준 디스크 저장소(HDD)를 사용</li>
+<li>빠르게 크기를 조정할 수 있기 때문에 비용을 절감</li>
+</ul></li>
+<li><strong>Blob 저장소</strong>
+
+<ul>
+<li>비구조적 데이터를 위한 대규모 확장 가능한 보안 저장소</li>
+<li>엑사바이트 용량과 대규모 확장성으로 데이터 액세스가 필요한 빈도에 따라 핫, 쿨 또는 보관 계층에서 수백에서 수십억 개의 개체를 저장</li>
+<li>이미지, 비디오, 오디오, 문서 등 모든 형식의 구조화되지 않은 데이터를 쉽고 비용 효율적으로 저장</li>
+</ul></li>
+<li><strong>보관 저장소</strong>
+
+<ul>
+<li>드물게 액세스하는 데이터 저장을 위한 업계 최고의 가격대</li>
+<li>미사용 데이터가 자동으로 암호화됨</li>
+<li>핫 및 쿨 저장소 계층과의 원활한 통합</li>
+</ul></li>
+<li><strong>File Storage</strong>
+
+<ul>
+<li>안전한 클라우드 파일 공유 확보</li>
+<li>온-프레미스 성능 및 기능을 위해 동기화를 사용하여 Azure로 서버를 확장</li>
+<li>SMB 3.0 및 HTTPS를 사용하여 미사용 데이터 및 전송 중인 데이터 보호</li>
+<li>친숙한 도구를 사용하여 클라우드 파일 공유 관리 간소화</li>
+</ul></li>
+<li><strong>Queue Storage</strong>
+
+<ul>
+<li>앱 간 메시지 기반 통신을 위한 보안 저장소 확보</li>
+<li>대량 볼륨 클라우드 서비스를 위한 지속형 큐</li>
+<li>대규모 작업을 위한 단순하고 비용 효율적이며 내구성이 뛰어난 메시지 큐</li>
+<li>.NET, Java, Android, C++, Node.js, PHP, Ruby 및 Python을 위한 다양한 클라이언트 라이브러리 지원</li>
+<li>REST API를 통해 데이터에 액세스 가능</li>
+</ul></li>
+<li><strong>Data Box</strong>
+
+<ul>
+<li>Azure로의 데이터 이동을 간소화하도록 설계된 어플라이언스</li>
+<li>테라바이트에서 페타바이트 단위로 데이터를 빠르고 쉽게 이동</li>
+<li>주문, 채우기, 반환의 모든 과정을 추적하는 Azure Portal</li>
+<li>많은 양의 데이터를 Azure로 전송하고 싶지만 시간이나 네트워크 가용성 또는 비용이 제한될 경우 Azure Data Box 서비스를 사용</li>
+</ul></li>
+</ol></li>
+
+<li><h3>분석</h3>
+
+<ol>
+<li><strong>HDInsight</strong>
+
+<ul>
+<li>엔터프라이즈용의 완전 관리형 전체 스펙트럼 오픈 소스 분석 서비스</li>
+<li>Hadoop, Spark, Hive, LLAP, Kafka, Storm, R 등의 인기 있는 오픈 소스 프레임워크를 사용 가능</li>
+<li>Azure HDInsight를 사용하면 ETL, Data Warehousing, Machine Learning, IoT 등의 다양한 시나리오를 이용 가능</li>
+<li>프로덕션 워크로드에 대한 종단 간 SLA를 제공</li>
+<li>Big Data를 처리하기 위한 기본 인프라 솔루션</li>
+</ul></li>
+<li><strong>Data Factory</strong>
+
+<ul>
+<li>편리해진 대규모 하이브리드 데이터 통합</li>
+<li>데이터 파이프라인 만들기, 예약 및 모니터링</li>
+<li>여러 네이티브 데이터 커넥터와의 데이터 통합 가속화</li>
+<li>클라우드에서 완벽하게 관리되는 ETL 서비스</li>
+<li>빅 데이터 통합으로 데이터 웨어하우스 현대화</li>
+</ul></li>
+<li><strong>Data Lake Analytics</strong>
+
+<ul>
+<li>인텔리전스 작업에 힘을 실어주는, 주문형 분석 작업 서비스</li>
+<li>페타바이트급 데이터를 대상으로 대규모 병렬 데이터 변환과 처리 프로그램을 U-SQL, R, Python, .Net에서 손쉽게 개발하고 실행</li>
+<li>관리할 인프라를 별도로 둘 필요 없이 데이터를 언제든지 처리하고 즉시 확장하여 사용</li>
+<li>빅 데이터 프로그램을 간편하게 디버그하고 최적화</li>
+</ul></li>
+<li><strong>Azure Analysis Services</strong>
+
+<ul>
+<li>인프라 관리 없이 빠르게 시작</li>
+<li>비즈니스 요구 사항에 맞게 리소스 규모 조정</li>
+<li>즐겨 사용하는 데이터 시각화 도구를 사용하여 데이터 시각화</li>
+<li>안심하고 BI 솔루션 제어, 배포, 테스트 및 제공</li>
+</ul></li>
+<li><strong>Log Analytics</strong>
+
+<ul>
+<li>로그 데이터를 정보 및 동작으로 변환</li>
+<li>여러 소스의 로그 데이터를 빠르게 연결 및 수집</li>
+<li>강력한 기계 학습 구문을 사용하여 상관 관계 지정 및 분석</li>
+<li>표현력이 있는 언어를 사용하여 대화형으로 검색 및 쿼리</li>
+<li>특화된 관리 솔루션을 사용하여 깊은 통찰력 개발</li>
+</ul></li>
+<li><strong>Azure HDInsight용 Apache Spark</strong></li>
+<li><strong>HDInsight용 Apache Storm</strong></li>
+<li><strong>HDInsight용 R 서버</strong></li>
+</ol></li>
+</ul>
+
+                </section>
+            </article>
+
+            
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fkaryu83.github.io%2fposts%2fazure-3%2f - Azure%20%ea%b8%b0%eb%8a%a5%20%eb%b6%84%ec%84%9d%203%ed%8e%b8%20-%20IoT%2c%20Storage%2c%20%eb%b6%84%ec%84%9d%20 by @karyumu83"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'karyu83'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Karyu
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://karyu83.github.io/js/jquery-3.3.1.min.js"></script>
+<script src="https://karyu83.github.io/js/main.js"></script>
+<script src="https://karyu83.github.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+    </body>
+</html>

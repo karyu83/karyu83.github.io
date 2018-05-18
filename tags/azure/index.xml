@@ -6,10 +6,19 @@
     <description>Recent content in Azure on Karyu&#39;s Development Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 17 May 2018 12:23:23 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 May 2018 17:22:32 +0900</lastBuildDate>
     
 	<atom:link href="https://karyu83.github.io/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure 기능 분석 3편 - IoT, Storage, 분석 </title>
+      <link>https://karyu83.github.io/posts/azure-3/</link>
+      <pubDate>Fri, 18 May 2018 17:22:32 +0900</pubDate>
+      
+      <guid>https://karyu83.github.io/posts/azure-3/</guid>
+      <description>MS Azure 기능 분석 2. Azure에서 지원하는 서비스 Azure IoT(Internet of Things) IoT Hub 수십억 개의 IoT 자산 연결, 모니터링 및 관리 IoT Hub는 오픈 소스 SDK와 여러 프로토콜을 지원하는 유</description>
+    </item>
     
     <item>
       <title>Azure 기능 분석 2편 - AI &#43; Machine Learning</title>
